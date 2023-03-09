@@ -16,10 +16,6 @@ This paper studies the correlations between sensitive attributes and learned nod
 
 ### 2. Automated
 
-The author removed the bias at the feature level and the topology level. They introduce the learnable parameters to de-bias the original feature matrix and adjacency matrix, the optimization by minimizing the Wasserstein distance between two groups.
-
-- [[WWW-2022] EDITS: Modeling and Mitigating Data Bias for Graph Neural Networks](https://arxiv.org/abs/2108.05233) [[code](https://github.com/yushundong/EDITS)] 
-
 They proposed a method to learn fair representations based on automated graph data augmentations. This augmentation can circumvent sensitive information (fairness) while preserving other useful information (informativeness).
 
 - [[ICLR-2023] Learning Fair Graph Representations via Automated Data Augmentations](https://openreview.net/forum?id=1_OGWcP1s9w) [[code](https://github.com/divelab/DIG)] 
@@ -28,6 +24,12 @@ This paper studies the feature propagation could vary the correlation of previou
 
 - [[KDD-2022] Improving Fairness in Graph Neural Networks via Mitigating Sensitive Attribute Leakage](https://arxiv.org/abs/2206.03426) [[code](https://github.com/YuWVandy/FairVGNN)]
 
+
+## Ⅱ. Distribution-Related Methods
+
+The author removed the bias at the feature level and the topology level. They introduce the learnable parameters to de-bias the original feature matrix and adjacency matrix, the optimization by minimizing the Wasserstein distance between two groups.
+
+- [[WWW-2022] EDITS: Modeling and Mitigating Data Bias for Graph Neural Networks](https://arxiv.org/abs/2108.05233) [[code](https://github.com/yushundong/EDITS)] 
 
 
 # Degree-Related Fairness
